@@ -1,7 +1,7 @@
 import { TILE_STATUSES, createBoard, markTile, revealTile, checkWin, checkLose } from "./minesweeper.js"
 
 const BOARD_SIZE = 10
-const NUMBER_OF_MINES = 3
+const NUMBER_OF_MINES = 10
 
 const board = createBoard(10, 10)
 const boardElement = document.querySelector('.board')
